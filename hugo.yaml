@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: BassJamm KB
+contentDir: content/
+enableGitInfo: true
 
 # import hextra as module
 module:
@@ -21,26 +23,25 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2    
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
-    - name: Search
+    - name: Contact ↗
+      url: "https://github.com/BassJamm"
       weight: 4
-      params:
-        type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
       params:
         icon: github
-    - name: Twitter
+    - name: Search
       weight: 6
-      url: "https://twitter.com/"
       params:
-        icon: x-twitter
+        type: search
+
 
 params:
   navbar:
@@ -53,4 +54,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
