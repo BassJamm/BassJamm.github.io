@@ -44,16 +44,18 @@ Error message, autopilot securing your hardware 0x800705b4
 
 ### Sysprep
 
->[!NOTE]
->If the pre-provision process has already started, it will continue from where it got to. See factory reset below to stop the device.
+{{< callout type="info" >}}
+If the pre-provision process has already started, it will continue from where it got to. See factory reset below to stop the device.
+{{< /callout >}}
 
 `C:\Windows\System32\Sysprep\sysprep.exe`
 Press Enter with the default settings.
 
 ### Factory Reset
 
->[!WARNING]
->This'll prompt to clear the TPM chip, there's no harm in doing this, it just adds time and an extra 1\2 reboots.
+{{< callout type="warning" >}}
+This'll prompt to clear the TPM chip, there's no harm in doing this, it just adds time and an extra 1\2 reboots.
+{{< /callout >}}
 
 This uses the Windows UI reset options.
 `systemreset –factoryreset`
