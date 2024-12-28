@@ -1,6 +1,5 @@
 # Hugo configuration file
 title: BassJamm KB
-enableGitInfo: true
 
 # import hextra as module
 module:
@@ -54,3 +53,5 @@ params:
   editURL:
     enable: true
     base: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
+  
+  enableGitInfo: true
