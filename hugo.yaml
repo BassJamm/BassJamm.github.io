@@ -1,6 +1,5 @@
 # Hugo configuration file
 title: BassJamm KB
-contentDir: content/
 enableGitInfo: true
 
 # import hextra as module
