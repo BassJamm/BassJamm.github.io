@@ -8,4 +8,4 @@ edit_with_github_link: "https://github.com/your-repo/edit/main/content/docs/post
 layout: "git"
 ---
 
-
+{{ PAGE.GitInfo }}
