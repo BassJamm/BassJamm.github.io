@@ -44,6 +44,10 @@ menu:
       url: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
       params:
         icon: github
+    - identifier: externalresources
+      name: External Resources
+      url: /external/
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
