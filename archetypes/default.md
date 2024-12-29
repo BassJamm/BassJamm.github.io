@@ -4,6 +4,7 @@ date: '{{ .Date }}'
 lastmod: '{{ .Date }}' # Optional; will be updated by GitInfo if enabled
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "Description"
+summary: "Summary"
 author: "BassJamm"
 tags: ["new"]
 showToc: true
@@ -22,7 +23,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---

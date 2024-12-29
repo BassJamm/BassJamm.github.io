@@ -8,17 +8,31 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test01</title>
-      <link>http://localhost:1313/posts/test01/</link>
-      <pubDate>Sun, 29 Dec 2024 12:14:26 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test01/</guid>
+      <title>Diagnosing Autopilot Issues for Windows Devices</title>
+      <link>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</link>
+      <pubDate>Sun, 29 Dec 2024 15:01:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</guid>
+      <description>Diagnosing Autopilot Issuesfor Windows Devices</description>
+    </item>
+    <item>
+      <title>TestPost03</title>
+      <link>http://localhost:1313/posts/testpost03/</link>
+      <pubDate>Sun, 29 Dec 2024 12:42:53 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testpost03/</guid>
       <description>Description</description>
     </item>
     <item>
-      <title>GDAP</title>
-      <link>http://localhost:1313/posts/gdap/</link>
-      <pubDate>Sun, 29 Dec 2024 11:53:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gdap/</guid>
+      <title>TestPost02</title>
+      <link>http://localhost:1313/posts/testpost02/</link>
+      <pubDate>Sun, 29 Dec 2024 12:42:51 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testpost02/</guid>
+      <description>Description</description>
+    </item>
+    <item>
+      <title>TestPost01</title>
+      <link>http://localhost:1313/posts/testpost01/</link>
+      <pubDate>Sun, 29 Dec 2024 12:42:48 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testpost01/</guid>
       <description>Description</description>
     </item>
   </channel>

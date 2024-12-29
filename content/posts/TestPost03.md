@@ -1,15 +1,12 @@
 ---
-date: '2024-12-29T11:53:03Z'
 draft: false
-title: 'GDAP'
-lastmod:
-    = :git
-    - lastmod
-    - :fileModTime
-    - :default
-tags: ["new"]
-author: "BassJamm"
+date: '2024-12-29T12:42:53Z'
+lastmod: '2024-12-29T12:42:53Z' # Optional; will be updated by GitInfo if enabled
+title: 'TestPost03'
 description: "Description"
+summary: "Summary"
+author: "BassJamm"
+tags: ["new"]
 showToc: true
 hidemeta: false
 canonicalURL: "https://canonical.url/to/page"
@@ -26,8 +23,17 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/BassJamm/BassJamm.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 
+## heading 1
+
+This is my third test post.
+
+## Heading 2
+
+## heading 2.1
+
+test
