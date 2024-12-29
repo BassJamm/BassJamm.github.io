@@ -1,15 +1,11 @@
 ---
-date: '2024-12-29T11:53:03Z'
 draft: false
-title: 'GDAP'
-lastmod:
-    = :git
-    - lastmod
-    - :fileModTime
-    - :default
-tags: ["new"]
-author: "BassJamm"
+date: '2024-12-29T12:14:26Z'
+lastmod: '2024-12-29T12:14:26Z' # Optional; will be updated by GitInfo if enabled
+title: 'Test01'
 description: "Description"
+author: "BassJamm"
+tags: ["new"]
 showToc: true
 hidemeta: false
 canonicalURL: "https://canonical.url/to/page"
@@ -30,4 +26,3 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-

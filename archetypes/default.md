@@ -1,6 +1,7 @@
 ---
 draft: false
 date: '{{ .Date }}'
+lastmod: '{{ .Date }}' # Optional; will be updated by GitInfo if enabled
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "Description"
 author: "BassJamm"
