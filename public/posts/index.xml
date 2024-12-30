@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PaperMod on BassJamm</title>
+    <title>Posts on BassJamm</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in PaperMod on BassJamm</description>
+    <description>Recent content in Posts on BassJamm</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uninstall McAfee</title>
+      <link>http://localhost:1313/posts/december2024/uninstallmcafee/</link>
+      <pubDate>Mon, 30 Dec 2024 17:25:16 +0000</pubDate>
+      <guid>http://localhost:1313/posts/december2024/uninstallmcafee/</guid>
+      <description>How to Uninstall McAfee using a script</description>
+    </item>
+    <item>
+      <title>Veeam Backup For Microsoft 365</title>
+      <link>http://localhost:1313/posts/december2024/veeambackupforms365/</link>
+      <pubDate>Mon, 30 Dec 2024 16:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/december2024/veeambackupforms365/</guid>
+      <description>Notes on Issues, solutions and Reporting for the product</description>
+    </item>
     <item>
       <title>Diagnosing Autopilot Issues for Windows Devices</title>
       <link>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</link>
       <pubDate>Sun, 29 Dec 2024 15:01:27 +0000</pubDate>
       <guid>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</guid>
       <description>Diagnosing Autopilot Issuesfor Windows Devices</description>
-    </item>
-    <item>
-      <title>TestPost03</title>
-      <link>http://localhost:1313/posts/testpost03/</link>
-      <pubDate>Sun, 29 Dec 2024 12:42:53 +0000</pubDate>
-      <guid>http://localhost:1313/posts/testpost03/</guid>
-      <description>Description</description>
-    </item>
-    <item>
-      <title>TestPost02</title>
-      <link>http://localhost:1313/posts/testpost02/</link>
-      <pubDate>Sun, 29 Dec 2024 12:42:51 +0000</pubDate>
-      <guid>http://localhost:1313/posts/testpost02/</guid>
-      <description>Description</description>
-    </item>
-    <item>
-      <title>TestPost01</title>
-      <link>http://localhost:1313/posts/testpost01/</link>
-      <pubDate>Sun, 29 Dec 2024 12:42:48 +0000</pubDate>
-      <guid>http://localhost:1313/posts/testpost01/</guid>
-      <description>Description</description>
     </item>
   </channel>
 </rss>

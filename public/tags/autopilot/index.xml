@@ -6,8 +6,15 @@
     <description>Recent content in Autopilot on BassJamm</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 16:09:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2024 17:25:16 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/autopilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uninstall McAfee</title>
+      <link>http://localhost:1313/posts/december2024/uninstallmcafee/</link>
+      <pubDate>Mon, 30 Dec 2024 17:25:16 +0000</pubDate>
+      <guid>http://localhost:1313/posts/december2024/uninstallmcafee/</guid>
+      <description>How to Uninstall McAfee using a script</description>
+    </item>
     <item>
       <title>Diagnosing Autopilot Issues for Windows Devices</title>
       <link>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</link>

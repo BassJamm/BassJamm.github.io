@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/autopilot/</loc>
+    <lastmod>2024-12-30T17:25:16+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-29T16:15:57+00:00</lastmod>
+    <lastmod>2024-12-30T17:25:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/</loc>
-    <lastmod>2024-12-29T16:15:57+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/new/</loc>
-    <lastmod>2024-12-29T16:15:57+00:00</lastmod>
+    <loc>http://localhost:1313/tags/intune/</loc>
+    <lastmod>2024-12-30T17:25:16+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-29T16:15:57+00:00</lastmod>
+    <lastmod>2024-12-30T17:25:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/autopilot/</loc>
-    <lastmod>2024-12-29T16:09:09+00:00</lastmod>
+    <loc>http://localhost:1313/posts/december2024/uninstallmcafee/</loc>
+    <lastmod>2024-12-30T17:25:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/microsoft365/</loc>
+    <lastmod>2024-12-30T16:05:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/veeam/</loc>
+    <lastmod>2024-12-30T16:05:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/december2024/veeambackupforms365/</loc>
+    <lastmod>2024-12-30T16:05:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/external/</loc>
+    <lastmod>2024-12-29T16:19:23+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/autopilot/</loc>
     <lastmod>2024-12-29T16:09:09+00:00</lastmod>
@@ -26,19 +38,7 @@
     <loc>http://localhost:1313/posts/december2024/diagnosing-autopilot-issues/</loc>
     <lastmod>2024-12-29T16:09:09+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intune/</loc>
-    <lastmod>2024-12-29T16:09:09+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/microsoft-intune/</loc>
-    <lastmod>2024-12-29T16:09:09+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/testpost03/</loc>
-    <lastmod>2024-12-29T16:09:09+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/testpost02/</loc>
-    <lastmod>2024-12-29T16:09:09+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/testpost01/</loc>
     <lastmod>2024-12-29T16:09:09+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>

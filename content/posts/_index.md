@@ -1,5 +1,5 @@
 ---
-title: PaperMod
-summary: Contains posts related to `PaperMod`
-description: Contains posts related to PaperMod
+title: Posts
+summary: Contains all posts
+description: Contains all posts
 ---

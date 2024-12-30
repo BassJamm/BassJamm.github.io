@@ -22,3 +22,4 @@ cover:
 
 * [PaperMod Site.](https://adityatelange.github.io/hugo-PaperMod/)
 * [Call for Cloud Blog.](https://call4cloud.nl/)
+* [Best Practice Guide for Veeam Backup for Microsoft 365 V7](https://bp.veeam.com/vb365/)
