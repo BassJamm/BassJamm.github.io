@@ -6,7 +6,8 @@ title: 'AutoPilot Setup Suggestions'
 description: "Quick fire suggestions for setting up Autopilot"
 summary: "Some quick fire suggestions for setting up Autopilot"
 author: "BassJamm"
-tags: ["new"]
+tags: ["Autopilot"]
+categories: ["TLDR"]
 showToc: true
 hidemeta: false
 canonicalURL: "https://canonical.url/to/page"

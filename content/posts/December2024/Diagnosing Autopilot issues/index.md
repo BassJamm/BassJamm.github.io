@@ -7,7 +7,7 @@ description: "Diagnosing Autopilot Issuesfor Windows Devices"
 summary: "Diagnosing Autopilot Issues for Windows Devices"
 author: "BassJamm"
 tags: ["Intune", "Autopilot"]
-categories: ["Microsoft intune", "Autopilot"]
+categories: ["How To"]
 showToc: true
 hidemeta: false
 hideSummary: false
