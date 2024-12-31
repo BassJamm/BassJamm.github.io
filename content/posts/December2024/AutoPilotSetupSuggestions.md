@@ -66,4 +66,4 @@ I have suggestd 4 groups in the above list, below are the reasons for them and t
 
 Painfully, this often has to be done manually by someone who is provisioning the machine however, some brands do offer command line tools to do this. Lenovo is one example of this and Dell also offer this via their Dell Software.
 
-I'll update this same post as I find more, hope it helps someone!
+I'll update this same post as I find more time to expand on the bullet points, hope it helps someone!
