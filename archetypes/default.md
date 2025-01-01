@@ -7,6 +7,7 @@ description: "Description"
 summary: "Summary"
 author: "BassJamm"
 tags: ["new"]
+categories: ["How To", "TLDR", "CheatSheet"]
 showToc: true
 hidemeta: false
 canonicalURL: "https://canonical.url/to/page"

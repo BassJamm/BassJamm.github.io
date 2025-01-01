@@ -22,4 +22,5 @@ cover:
 
 * [PaperMod Site.](https://adityatelange.github.io/hugo-PaperMod/)
 * [Call for Cloud Blog.](https://call4cloud.nl/)
-* [Best Practice Guide for Veeam Backup for Microsoft 365 V7](https://bp.veeam.com/vb365/)
+* [Best Practice Guide for Veeam Backup for Microsoft 365 V7](https://bp.veeam.com/vb365/).
+* [Email Authentication using OAuth](https://www.emailarchitect.net/eaoauth/kb/azure_application_pop_imap_grant.aspx).

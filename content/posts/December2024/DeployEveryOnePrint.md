@@ -2,7 +2,7 @@
 draft: false
 date: '2024-12-31T16:00:46Z'
 lastmod: '2024-12-31T16:00:46Z' # Optional; will be updated by GitInfo if enabled
-title: 'DeployEveryOnePrint'
+title: 'Deploy EveryOne Print'
 description: "Deploy EveryOne Print from Intune"
 summary: "Deploy EveryOne Print from Intune"
 author: "BassJamm"

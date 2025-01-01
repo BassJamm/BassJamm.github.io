@@ -6,8 +6,43 @@
     <description>Recent content in Tags on BassJamm</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2024 16:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 21:53:04 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exchange Online</title>
+      <link>http://localhost:1313/tags/exchange-online/</link>
+      <pubDate>Wed, 01 Jan 2025 21:53:04 +0000</pubDate>
+      <guid>http://localhost:1313/tags/exchange-online/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SMTP</title>
+      <link>http://localhost:1313/tags/smtp/</link>
+      <pubDate>Wed, 01 Jan 2025 21:53:04 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smtp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tags/azure/</link>
+      <pubDate>Wed, 01 Jan 2025 21:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/tags/networking/</link>
+      <pubDate>Wed, 01 Jan 2025 21:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NSG</title>
+      <link>http://localhost:1313/tags/nsg/</link>
+      <pubDate>Wed, 01 Jan 2025 21:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nsg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Intune</title>
       <link>http://localhost:1313/tags/intune/</link>

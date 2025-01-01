@@ -8,6 +8,20 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sending email with SMTP via Exchange Online using OAuth</title>
+      <link>http://localhost:1313/posts/january2025/oauthwithexchonline/</link>
+      <pubDate>Wed, 01 Jan 2025 21:53:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/january2025/oauthwithexchonline/</guid>
+      <description>How to use OAuth to send email using Exchange Online</description>
+    </item>
+    <item>
+      <title>Network Security Group (NSG) Assistance</title>
+      <link>http://localhost:1313/posts/january2025/nsgassistance/</link>
+      <pubDate>Wed, 01 Jan 2025 21:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/january2025/nsgassistance/</guid>
+      <description>Helpful information about Network Security Groups</description>
+    </item>
+    <item>
       <title>DeployEveryOnePrint</title>
       <link>http://localhost:1313/posts/december2024/deployeveryoneprint/</link>
       <pubDate>Tue, 31 Dec 2024 16:00:46 +0000</pubDate>

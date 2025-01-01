@@ -51,10 +51,14 @@ menu:
       name: External Resources
       url: /external/
       weight: 5
+    - identifier: archives
+      name: Archives
+      url: /archives
+      weight: 6
     - identifier: search
       name: Search
       url: /search/
-      weight: 6
+      weight: 7
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -93,6 +97,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  ShowAllPagesInArchive: true
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
