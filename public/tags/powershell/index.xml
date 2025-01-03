@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>New on BassJamm</title>
-    <link>http://localhost:1313/tags/new/</link>
-    <description>Recent content in New on BassJamm</description>
+    <title>Powershell on BassJamm</title>
+    <link>http://localhost:1313/tags/powershell/</link>
+    <description>Recent content in Powershell on BassJamm</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 11:14:58 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CustomisePWSHPrompt</title>
+      <title>Customise your PowerShell prompt</title>
       <link>http://localhost:1313/posts/january2025/customisepwshprompt/</link>
       <pubDate>Fri, 03 Jan 2025 11:14:58 +0000</pubDate>
       <guid>http://localhost:1313/posts/january2025/customisepwshprompt/</guid>
