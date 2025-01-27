@@ -29,17 +29,14 @@ editPost:
 
 ## Intro
 
-Veeam Backup for Microsoft 365 is a reliable solution, but after a couple of years now of using and supporting it, I’ve found some areas where I think it needs some improvement.
+Veeam Backup for Microsoft 365 is a reliable solution, but after years of use, I’ve identified areas for improvement. Key challenges include:
 
-+ **Built-in Reporting**: I've found these to be a little limited on the details that I needed. Then again I'm a techies who's interested in the read\write of the jobs etc, the reporting out of the box is catered more for end users; you can get 95% of any data you need through Powershell though.
-+ **Retention Period Auditing**: There have been some issues (likely due to my own negligence or ignorance) with data falling out of retention without my knowledge. Adding some reporting alongside the backup jobs would be very useful.
-+ **SharePoint Script Issues**: Pre-version 8, Microsoft's security settings frequently disabled script execution for backing up web parts. When I queried these with Veeam support, they informed me that these webparts mainly contain meta data and is not something to worry about being backed up.
-
-Some challenges with the product:
-
-+ **Group Ownership Gaps**: Groups without owners aren't backed up unless manually addressed; this is a time consuming one to fix, espcially if you have end users creating groups.
-+ **Backup Speed**: Microsoft throttling is punishing sometimes and significantly slows job completion times.
-+ **Easy to lose control**: My company adopted the product when it was a comunity product with free support. Since then the best practice guide has been updated and so have the requirements. We've had some considerable issues with our Job layouts, so best review the [best practice guide](https://bp.veeam.com/vb365/) is all I'd say.
++ **Built-in Reporting** Limited features often fall short of customer needs, requiring custom PowerShell scripts.
++ **Retention Periods**: Difficult to audit, making it hard to track data outside of the backup retention window.
++ **SharePoint Script Issues**: Pre-version 8, Microsoft's security settings frequently disabled script execution.
++ **Group Ownership Gaps**: Groups without owners aren't backed up unless manually addressed.
++ **Backup Speed**: Microsoft throttling significantly slows job completion times.
++ **Easy to lose control**: We had various people\teams look after this product, configuration drift has really left it in a mess in places.
 
 Below, I'm sharing what I have found, used and troubleshooted.
 

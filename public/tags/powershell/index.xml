@@ -6,14 +6,14 @@
     <description>Recent content in Powershell on BassJamm</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 11:37:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 11:14:58 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customise your PowerShell prompt</title>
       <link>http://localhost:1313/posts/january2025/customisepwshprompt/</link>
       <pubDate>Fri, 03 Jan 2025 11:14:58 +0000</pubDate>
       <guid>http://localhost:1313/posts/january2025/customisepwshprompt/</guid>
-      <description>Quick doc on how to customise your PowerShell prompt.</description>
+      <description>Description</description>
     </item>
   </channel>
 </rss>
