@@ -30,29 +30,50 @@ editPost:
 
 ## Collecting Autopilot Diagnostic Logs
 
+> This works for a device that is being built and also after it has been built.
+
 How to collect diagnostic logs from a device that is building currently or has been built.
 
-1. Press `Shift + F10` or  `Fn + Shift + F10`, to open Command Prompt.
-2. Type "PowerShell", to launch the PowerShell prompt.
-3. Type , `New-Item -Path C:\ -Name Temp -ItemType Directory` to create the destination folder for the logs.
-4. Type,`Set-ExecutionPolicy -ExecutionPolicy Unrestricted` to allow the script install later.
-5. Make sure your location is, `"C:\Windows\System32`", if not type  `sl C:\Windows\System32\`.
-6. Run, `MdmDiagnosticsTool.exe -area Autopilot -zip C:\Temp\mdmDiag.zip`.
-7. Run, `Install-Script -Name Get-AutopilotDiagnostics -Scope CurrentUser`.
-8. Run, `Get-AutopilotDiagnostics.ps1 -zip C:\Temp\mdmdiag.zip`.
+1. Open Command Prompt with `Shift + F10` or `Fn + Shift + F10`.  
+2. Type `PowerShell` and press Enter.
+3.  Create a folder for logs, type, `New-Item -Path C:\ -Name Temp -ItemType Directory`.
+4. Allow script execution, `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`.
+5. Ensure you’re in the correct directory, `sl C:\Windows\System32\`.
+6. Run the MDM diagnostics tool, `MdmDiagnosticsTool.exe -area Autopilot -zip C:\Temp\mdmDiag.zip`.
 
 ![Running the command](img/mdmdiagnosticTool.png)
 
+7. Install the Diagnostic script, `Install-Script -Name Get-AutopilotDiagnostics -Scope CurrentUser`.
+8. Run the diagnostics script, `Get-AutopilotDiagnostics.ps1 -zip C:\Temp\mdmdiag.zip`.
+
 ![The output of the steps above](img/OutputofDiags.png)
 
-## Autopilot Process stuck
+## Autopilot Process Stuck  
 
-How to check should your Autopilot build be stuck for long periods of time.
+How to check if your Autopilot build is stuck for an extended period.  
 
-Firstly, check the Autopilot Diagnostic Logs first using [this section](#collecting-autopilot-diagnostic-logs).
-If that gives you an application Id I would suggest using the section below for how to link that Id with the application.
+First, check the Autopilot Diagnostic Logs using [this section](#collecting-autopilot-diagnostic-logs).
+
+If the diagnostic tool indicates an application that is causing an issue from the output.
+Check the section below to the section below to find an application using it's ID.
+This has been the issue almost every time from my experience.
+
+> Good thing to remember is not to deploy Win32 Apps along side other types of apps such as Line Of Business apps.
+> They will often block each other from installing, deploy only Win32 apps during Autopilot and deploy everything
+> else afterwards.
 
 ## Finding an Application via it's Id
+
+### The easy way (when it works)
+
+> Bear in mind that this has not worked for a while. There is an error regarding the Enterprise App ID it is trying
+> to use.
+
+From step 8 in [this section](#collecting-autopilot-diagnostic-logs). Include the `-Online` switch and it will
+ask you to login to the tenant using credentials that have access to Intune. It'll then populate the application IDs
+where it can.
+
+### The hard way
 
 You'll need to grab the application ID using [this section](#collecting-autopilot-diagnostic-logs) first,
 then substitute your app Id into the url below.
@@ -66,9 +87,11 @@ Include the `*`, where they are now.
 
 ## Device is assigned to a user
 
-You'll see this when you try to complete the user driven method when the username is pre-populated at the initial login prompt. During pre-provision, where it confirms the Autopilot profile, you'll see the user's email address underneath it.
+You'll see this when you try to complete the user driven method when the username is pre-populated at the initial login prompt.
+During pre-provision, where it confirms the Autopilot profile, you'll see the user's email address underneath it.
 
-Check out [this Microsoft doc for more information](https://learn.microsoft.com/en-us/autopilot/tutorial/user-driven/hybrid-azure-ad-join-assign-device-to-user#assign-autopilot-device-to-a-user-optional). Below is the condensed version.
+Check out [this Microsoft doc for more information](https://learn.microsoft.com/en-us/autopilot/tutorial/user-driven/hybrid-azure-ad-join-assign-device-to-user#assign-autopilot-device-to-a-user-optional).
+Below is the condensed version.
 
 1. Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Navigate to **Windows | Windows enrollment** screen, under **Windows Autopilot**, select **Devices**.
@@ -110,13 +133,10 @@ Continue on below if you find errors or if you find no errors.
 
 #### Reset the Device to Factory
 
-> *Make sure to delete from MDM (not EntraID or Autopilot)*
-
-Reset the device from the error page from Pre-provisioning, let this complete.
-
-> *There is a command for PowerShell for a Windows 11 device, `systemreset --factoryreset`*
-
-Try Pre-Provision again.
+1. Make sure to delete from MDM (not EntraID or Autopilot).
+2. Reset the device from the error page from Pre-provisioning, let this complete.
+There is a command for PowerShell for a Windows 11 device, `systemreset --factoryreset`.
+3. Try to Pre-Provision again.
 
 #### Clear the TPM Chip
 
@@ -129,4 +149,7 @@ Try Pre-Provision again.
 
 #### Escalate to Microsoft
 
-You've tried everything so far to no end. Now to raise to Microsoft.
+If you have tried everything so far to no end. Now to raise to Microsoft.
+
+
+Hope this helps someone!

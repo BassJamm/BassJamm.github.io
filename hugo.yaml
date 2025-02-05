@@ -81,9 +81,9 @@ params:
     Content: >
       Hi 👋, welcome to my Knowledge Base/Blog!
       
-      - I’m an **Infrastructure Engineer** working at an MSP in the UK, focusing on *Azure* and *Microsoft 365* (Intune, SharePoint, Defender).
+      - I'm an **Infrastructure Engineer** working at an MSP in the UK, focusing on *Azure* and *Microsoft 365* (Intune, SharePoint, Defender).
 
-      - I plan to regularly update this site with insights and learnings from my day-to-day work—ensuring nothing compromises my role.
+      - This Blog is a bit of a passion project plus a way to document what I have learned day-to-day.
 
       - This site is powered by **Hugo**, uses the **PaperMod** theme, and is hosted on **GitHub**.
 
