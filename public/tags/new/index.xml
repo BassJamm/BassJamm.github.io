@@ -4,16 +4,16 @@
     <title>New on BassJamm</title>
     <link>http://localhost:1313/tags/new/</link>
     <description>Recent content in New on BassJamm</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 11:14:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 20:47:50 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/new/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CustomisePWSHPrompt</title>
-      <link>http://localhost:1313/posts/january2025/customisepwshprompt/</link>
-      <pubDate>Fri, 03 Jan 2025 11:14:58 +0000</pubDate>
-      <guid>http://localhost:1313/posts/january2025/customisepwshprompt/</guid>
-      <description>Description</description>
+      <title>Intune App Deployments: Force Re-Install an App</title>
+      <link>http://localhost:1313/posts/feburary2025/intuneapptroubleshooting/</link>
+      <pubDate>Mon, 10 Feb 2025 20:47:50 +0000</pubDate>
+      <guid>http://localhost:1313/posts/feburary2025/intuneapptroubleshooting/</guid>
+      <description>Forcing a re-install of an application</description>
     </item>
   </channel>
 </rss>
