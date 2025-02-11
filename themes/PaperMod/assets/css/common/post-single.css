@@ -1,6 +1,8 @@
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
+    padding-bottom: 1rem;
+    border-bottom: thin solid var(--border);
 }
 
 .post-title {
@@ -51,6 +53,8 @@
 .post-content h2 {
     margin: 32px auto 24px;
     font-size: 32px;
+    padding-bottom: 1rem;
+    border-bottom: thin solid var(--border);
 }
 
 .post-content h3 {
@@ -69,9 +73,18 @@
     font-size: 12px;
 }
 
-.post-content a,
-.toc a:hover {
-    box-shadow: 0 1px 0;
+.post-content a {
+    padding-bottom: 0.1em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    color: var(--custom-secondary);
+}
+
+.post-content a:hover {
+    border-bottom: thin solid var(--custom-secondary);
+}
+
+.toc {
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
@@ -192,16 +205,20 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.80em;
+    letter-spacing: 0.02em;
     line-height: 1.5;
     background: var(--code-bg);
+    color: var(--custom-secondary);
     border-radius: 2px;
+    font-family: 'SFMono-Regular', monospace;
 }
 
 .post-content pre code {
     display: grid;
     margin: auto 0;
     padding: 10px;
+    letter-spacing: 0.02em;
     color: rgb(213, 213, 214);
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
@@ -212,7 +229,8 @@
 .post-content blockquote {
     margin: 20px 0;
     padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    color: var(--secondary);
+    border-inline-start: 3px solid var(--secondary);
 }
 
 .post-content hr {

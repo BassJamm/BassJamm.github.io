@@ -9,6 +9,7 @@ author: "BassJamm"
 tags: ["new"]
 categories: ["How To", "TLDR", "CheatSheet"]
 showToc: true
+TocOpen: true
 hidemeta: false
 canonicalURL: "https://canonical.url/to/page"
 hideSummary: false
