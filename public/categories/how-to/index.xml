@@ -6,13 +6,20 @@
     <description>Recent content in How To on BassJamm</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2025 21:23:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 20:39:28 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Intune App Deployments: App Applicability</title>
+      <link>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost2/</link>
+      <pubDate>Thu, 13 Feb 2025 20:39:28 +0000</pubDate>
+      <guid>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost2/</guid>
+      <description>Post 2 in a series about Intune Application Troubleshooting</description>
+    </item>
+    <item>
       <title>Intune App Deployments: Force Re-Install an App</title>
-      <link>http://localhost:1313/posts/feburary2025/intuneapptroubleshooting/</link>
+      <link>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost1/</link>
       <pubDate>Mon, 10 Feb 2025 20:47:50 +0000</pubDate>
-      <guid>http://localhost:1313/posts/feburary2025/intuneapptroubleshooting/</guid>
+      <guid>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost1/</guid>
       <description>Forcing a re-install of an application</description>
     </item>
     <item>

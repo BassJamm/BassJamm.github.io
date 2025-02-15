@@ -6,7 +6,7 @@ title: 'Intune App Deployments: Force Re-Install an App'
 description: "Forcing a re-install of an application"
 summary: "Post 1 in a series about Intune Application Troubleshooting"
 author: "BassJamm"
-tags: ["new"]
+tags: ["Intune"]
 categories: ["How To"]
 showToc: true
 TocOpen: true
