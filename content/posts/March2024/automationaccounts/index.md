@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: '2025-03-05T22:00:18Z'
 lastmod: '2025-03-05T22:00:18Z' # Optional; will be updated by GitInfo if enabled
 title: 'Automating Scripts in Azure'
