@@ -2,34 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/march2024/automationaccounts/</loc>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cheatsheet/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/how-to/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost3/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/new/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tldr/</loc>
-    <lastmod>2025-02-15T17:40:56+00:00</lastmod>
+    <lastmod>2025-03-05T22:00:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost2/</loc>
-    <lastmod>2025-02-15T13:00:06+00:00</lastmod>
+    <loc>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost3/</loc>
+    <lastmod>2025-02-15T19:07:27+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/intune-application/</loc>
+    <lastmod>2025-02-15T19:07:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost2/</loc>
     <lastmod>2025-02-15T13:00:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/intune/</loc>

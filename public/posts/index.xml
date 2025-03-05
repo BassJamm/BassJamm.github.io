@@ -4,15 +4,22 @@
     <title>Posts on BassJamm</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on BassJamm</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IntuneAppTroubleshootingpost3</title>
+      <title>Automationaccounts</title>
+      <link>http://localhost:1313/posts/march2024/automationaccounts/</link>
+      <pubDate>Wed, 05 Mar 2025 22:00:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/march2024/automationaccounts/</guid>
+      <description>Description</description>
+    </item>
+    <item>
+      <title>Intune App Troubleshooting: Intune Management Extension Logs</title>
       <link>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost3/</link>
       <pubDate>Sat, 15 Feb 2025 17:40:56 +0000</pubDate>
       <guid>http://localhost:1313/posts/feburary2025/intuneapptroubleshootingpost3/</guid>
-      <description>Description</description>
+      <description>Making sense of the IME logs</description>
     </item>
     <item>
       <title>Intune App Deployments: App Applicability</title>
